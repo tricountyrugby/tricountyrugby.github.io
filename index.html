@@ -1,23 +1,30 @@
 ---
-layout: default
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
 
-  <h1 class="page-heading">Posts</h1>
+  <body id="cover-page">
+    <div class="container">
+      {% include header.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="jumbotron clearfix" id="banner">
+        <img class="img-responsive" src="/assets/tridentlogo.png" alt="" />
+        <h1>Tri-County Tridents</h1>
+        <h2>Rugby Football Club</h2>
+        <p id="blurb">
+          A growing social rugby club welcoming players of all ages and
+          experience throughout the Niagara, Erie, and Genesee
+          counties of Western New York.
+        </p>
+        <a href="/about" class="btn btn-primary btn-lg">
+          Learn More!
+        </a>
+      </div>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    {% include footer.html %}
+  </body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</html>
