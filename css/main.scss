@@ -38,6 +38,11 @@ body#cover-page {
   background-size: cover;
 }
 
+.navbar-brand > img {
+  max-height: 100%;
+  float: left;
+}
+
 .jumbotron#banner {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 20%;
@@ -67,6 +72,10 @@ body#cover-page {
 
 #twitter-icon:hover > i {
   color: rgb(0, 172, 237);
+}
+
+p.bg-info {
+  padding: 1rem;
 }
 
 @import "bootstrap";
