@@ -16,5 +16,6 @@ url: "http://www.tricountyrugby.org" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  akofke
 
+team-email: TricountytridentsRFC@gmail.com
 # Build settings
 markdown: kramdown
