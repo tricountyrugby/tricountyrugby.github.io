@@ -13,9 +13,9 @@ description: > # this means to ignore newlines until "baseurl:"
   based in Lockport, NY.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.tricountyrugby.org" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  akofke
 
-team-email: TricountytridentsRFC@gmail.com
+team-email: tricountyrugby@gmail.com
 # Build settings
 markdown: kramdown
