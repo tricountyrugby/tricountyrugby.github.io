@@ -9,10 +9,10 @@ title: Contact
 
 <p class="lead">
 	Feel free to contact us using the form below, through the team
-	<a href="#">Facebook page</a> or the team <a href="#">email</a>.
+	<a href="{{ site.fb-url }}">Facebook page</a> or the team <a href="mailto:{{ site.team-email }}">email</a>.
 </p>
 
-<form class="" action="https://formspree.io/tricountyrugby@gmail.com" method="post">
+<form class="" action="https://formspree.io/{{ site.team-email }}" method="post">
 	<fieldset class="form-group">
 		<label for="email">Your email</label>
 		<input required class="form-control" type="email" name="email" placeholder="example@domain.com">

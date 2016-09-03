@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tri-County RFC
+title: Tri-County Rugby
 email: akofke@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The home page for the Tri-County Tridents, a social rugby club
+  The Tri-County Tridents, a social rugby club
   based in Lockport, NY.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.tricountyrugby.org" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  akofke
 
-team-email: tricountyrugby@gmail.com
+team-email: team@tricountyrugby.org
+fb-url: https://www.facebook.com/tricountyrugby/
 # Build settings
 markdown: kramdown
