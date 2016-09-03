@@ -20,3 +20,6 @@ team-email: team@tricountyrugby.org
 fb-url: https://www.facebook.com/tricountyrugby/
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
